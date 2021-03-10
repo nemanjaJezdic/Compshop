@@ -2545,3 +2545,7 @@ text-align: left;
 width: 550px;
 margin: 30px auto;
 }
+
+.navbar-collapse{
+  max-height: auto;
+}
