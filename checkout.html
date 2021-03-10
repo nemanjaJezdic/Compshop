@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Computers, notebooks, brand technology for entertainment and household in the Comp-Shopper online shop buy cheaply. Best Selection. Best service.">
+    <meta name="author" content="">
+    <title>Checkout | COMP-Shopper</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/jquery.toast.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- <link rel="shortcut icon" href="images/ico/favicon.ico"> -->
+    <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png"> -->
+    <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png"> -->
+    <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png"> -->
+    <!-- <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> -->
+</head>
+<!--/head-->
+
+<body>
+	<header id="header"><!--header-->
+		<div class="header_top"><!--header_top-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="contactinfo">
+							<ul class="nav nav-pills">
+								<li><a href="#"><i class="fa fa-phone"></i> +381 645891095</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> info@compshopper.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header_top-->
+
+		<div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html"><img src="images/home/logo.png" alt="COMP-SHOPPER logo" /></a>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="checkout.html"><i class="fa fa-shopping-cart"></i> Checkout</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+
+		<div class="header-bottom"><!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="index.html">Home</a></li>
+								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+                                    <ul id="categories-menu" role="menu" class="sub-menu">
+                                        <li><a href="shop.html">Computer & Office</a></li>
+										<li><a href="shop.html">Hardware & Components</a></li>
+										<li><a href="shop.html">Software</a></li>
+										<li><a href="shop.html">Cameras</a></li>
+										<li><a href="shop.html">Games & Entertainment</a></li>
+                                    </ul>
+                                </li>
+								<li><a href="contact-us.html">Contact</a></li>
+								<li><a href="author.html">Author</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-bottom-->
+	</header><!--/header-->
+
+	<section id="cart_items">
+		<div class="container">
+			<div class="review-payment">
+				<h2 class="title text-center">Cart Review</h2>
+			</div>
+
+			<div class="table-responsive cart_info">
+				<table class="table table-condensed cart-table">
+					<thead>
+						<tr class="cart_menu">
+							<td class="image">Item</td>
+							<td class="description"></td>
+							<td class="price">Price</td>
+							<td class="quantity">Quantity</td>
+							<td class="total">Total</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+
+					</tbody>
+				</table>
+			</div>
+			<h2 class="title text-center">Checkout</h2>
+			<div class="shopper-informations">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="shopper-info">
+							<p>Billing Information</p>
+							<form class="billing-info-form needs-validation" novalidate>
+								<div class="form-group">
+									<input name="firstname" type="text" placeholder="First Name*">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="lastname" type="text" placeholder="Last Name*">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="email" type="text" placeholder="Email*">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="address" type="text" placeholder="Address 1 *">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="address_two" type="text" placeholder="Address 2">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="zip" type="text" placeholder="Zip / Postal Code *">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="phone" type="text" placeholder="Phone *">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<select name="country">
+										<option>-- Country --</option>
+										<option>United States</option>
+										<option>Bangladesh</option>
+										<option>UK</option>
+										<option>India</option>
+										<option>Pakistan</option>
+										<option>Ucrane</option>
+										<option>Canada</option>
+										<option>Dubai</option>
+									</select>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-sm-4 clearfix">
+						<div class="shopper-info">
+							<p>Shipping information</p>
+							<form class="shipping-info-form needs-validation" novalidate>
+								<div class="form-group">
+									<input name="firstname" type="text" placeholder="First Name*">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="lastname" type="text" placeholder="Last Name*">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="email" type="text" placeholder="Email*">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="address" type="text" placeholder="Address 1 *">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="address_two" type="text" placeholder="Address 2">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="zip" type="text" placeholder="Zip / Postal Code *">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<input name="phone" type="text" placeholder="Phone *">
+									<span class="help-block"></span>
+								</div>
+								<div class="form-group">
+									<select name="country">
+										<option>-- Country --</option>
+										<option>United States</option>
+										<option>Bangladesh</option>
+										<option>UK</option>
+										<option>India</option>
+										<option>Pakistan</option>
+										<option>Ucrane</option>
+										<option>Canada</option>
+										<option>Dubai</option>
+									</select>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="order-message">
+							<p>Shipping Order</p>
+							<textarea name="message" placeholder="Notes about your order, Special Notes for Delivery" rows="16"></textarea>
+							<a href="" class="btn btn-primary d-block submit-checkout disabled" style="margin-top: 0px; display: block;">Submit</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="payment-options">
+
+			</div>
+		</div>
+	</section>
+	<!--/#cart_items-->
+
+
+	<footer id="footer"><!--Footer-->
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="companyinfo">
+							<h2><span>COMP</span>-SHOPPER</h2>
+							<p>Buy with confidence</p>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Service</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="/contact-us.html">Online Help</a></li>
+								<li><a href="/contact-us.html">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Shop</h2>
+							<ul class="nav nav-pills nav-stacked categories-footer">
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>About </h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="/contact-us.html">Company Information</a></li>
+								<li><a href="https://goo.gl/maps/mSgnT3QpxbYQXEqbA">Location</a></li>
+								<li><a href="/sitemap.xml">Sitemap</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Author </h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="/author.html">Author</a></li>
+								<li><a href="/documentation.pdf">Documentation</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="text-center">Copyright © 2021 COMP-Shopper Inc. Nemanja Jezdic 30/19</p>
+				</div>
+			</div>
+		</div>
+
+	</footer><!--/Footer-->
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			  <h4 class="modal-title">Successfull checkout</h4>
+			</div>
+			<div class="modal-body">
+			  <p>Your order has been submitted successfully. Comp-Shopper team</p>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	  </div><!-- /.modal -->
+
+	  <script src="js/jquery.js"></script>
+	  <script src="js/jqury.toast.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/jquery.scrollUp.min.js"></script>
+	  <script src="js/price-range.js"></script>
+	  <script src="js/jquery.prettyPhoto.js"></script>
+	  <script src="js/main/global.js"></script>
+	  <script src="js/main/checkout.js"></script>
+</body>
+
+</html>

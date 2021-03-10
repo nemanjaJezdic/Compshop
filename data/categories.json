@@ -1,0 +1,90 @@
+[
+    {
+        "id": "c1",
+        "name": "Computers",
+        "description": "Computers",
+        "subcategories": [
+            {
+                "id": "c11",
+                "name": "Computer Components",
+                "description": "Computer Components"
+            },
+            {
+                "id": "c12",
+                "name": "Drives & Storage",
+                "description": "Drives & Storage"
+            },
+            {
+                "id": "c13",
+                "name": "Networking",
+                "description": "Networking"
+            },
+            {
+                "id": "c14",
+                "name": "Monitors & Displays",
+                "description": "Monitors & Displays"
+            }
+        ]
+    },
+    {
+        "id": "c2",
+        "name": "Photography",
+        "description": "Photography",
+        "subcategories": [
+            {
+                "id": "c21",
+                "name": "Digital Cameras",
+                "description": "Digital Cameras"
+            },
+            {
+                "id": "c22",
+                "name": "Lenses",
+                "description": "Lenses"
+            },
+            {
+                "id": "c23",
+                "name": "Drones & Aerial imaging",
+                "description": "Drones & Aerial imaging"
+            }
+        ]
+    },
+    {
+        "id": "c3",
+        "name": "TVs & Entertainment",
+        "description": "TVs & Entertainment",
+        "subcategories": [
+            {
+                "id": "c31",
+                "name": "Televisions",
+                "description": "Televisions"
+            },
+            {
+                "id": "c32",
+                "name": "Streaming & Media Players",
+                "description": "Streaming & Media Players"
+            }
+        ]
+    },
+    {
+        "id": "c4",
+        "name": "Mobile",
+        "description": "Mobile",
+        "subcategories": [
+            {
+                "id": "c41",
+                "name": "Unlocked Cell Phones",
+                "description": "Unlocked Cell Phones"
+            },
+            {
+                "id": "c42",
+                "name": "iPads & Tablets",
+                "description": "iPads & Tablets"
+            },
+            {
+                "id": "c43",
+                "name": "Wearable Technology",
+                "description": "Wearable Technology"
+            }
+        ]
+    }
+]

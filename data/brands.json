@@ -1,0 +1,50 @@
+[
+    {
+        "id": "b1",
+        "name": "MSI",
+        "description": "MSI",
+        "numberOfProducts": 50
+    },
+    {
+        "id": "b2",
+        "name": "Intel",
+        "description": "Intel",
+        "numberOfProducts": 27
+    },
+    {
+        "id": "b3",
+        "name": "Logitech",
+        "description": "Logitech",
+        "numberOfProducts": 56
+    },
+    {
+        "id": "b4",
+        "name": "GIGABYTE",
+        "description": "GIGABYTE",
+        "numberOfProducts": 32
+    },
+    {
+        "id": "b5",
+        "name": "LG",
+        "description": "LG",
+        "numberOfProducts": 10
+    },
+    {
+        "id": "b6",
+        "name": "Samsung",
+        "description": "Samsung",
+        "numberOfProducts": 23
+    },
+    {
+        "id": "b7",
+        "name": "Asus",
+        "description": "Asus",
+        "numberOfProducts": 5
+    },
+    {
+        "id": "b8",
+        "name": "Cooler Master",
+        "description": "Cooler Master",
+        "numberOfProducts": 2
+    }
+]
