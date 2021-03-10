@@ -2535,14 +2535,12 @@ h2.title {
 }
 
 .author-container img{
-  width: 400px;
 border-radius: 30%;
 margin: 15px;
 }
 
 .author-container p{
 text-align: left;
-width: 550px;
 margin: 30px auto;
 }
 
