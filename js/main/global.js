@@ -73,7 +73,7 @@ $(document).ready(function () {
         setTimeout(() => {
             $(this).html(beforeHtml);
             $(this).removeClass('loading-add-to-cart');
-            $.toast({ text: 'Successfully added product to cart. <a href='/Compshop/checkout.html">Go to cart</a>', position: 'bottom-center' });
+            $.toast({ text: 'Successfully added product to cart. <a href="/Compshop/checkout.html">Go to cart</a>', position: 'bottom-center' });
         }, 1500);
     });
     /*price range*/
@@ -125,7 +125,7 @@ $(document).ready(function () {
                     <div id="accordian-${category.id}" class="panel-collapse collapse">
                         <div class="panel-body">
                             <ul>
-                                ${category.subcategories.map((c) => `<li id="${c.id}" ><a href='/Compshop/shop.html?categoryId=${c.id}">${c.name}</a></li>`).join('')}
+                                ${category.subcategories.map((c) => `<li id="${c.id}" ><a href="/Compshop/shop.html?categoryId=${c.id}">${c.name}</a></li>`).join('')}
                             </ul>
                         </div>
                     </div>
