@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>https://nemanjajezdic.github.io/Compshop/</loc>
+  <lastmod>2021-03-11</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://nemanjajezdic.github.io/Compshop/index.html</loc>
+  <lastmod>2021-03-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nemanjajezdic.github.io/Compshop/checkout.html</loc>
+  <lastmod>2021-03-11</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nemanjajezdic.github.io/Compshop/shop.html</loc>
+  <lastmod>2021-03-11</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nemanjajezdic.github.io/Compshop/contact-us.html</loc>
+  <lastmod>2021-03-11</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nemanjajezdic.github.io/Compshop/author.html</loc>
+  <lastmod>2021-03-11</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nemanjajezdic.github.io/Compshop/documentation.pdf</loc>
+  <lastmod>2021-03-11</lastmod>
+   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
