@@ -2541,6 +2541,7 @@ margin: 15px;
 }
 
 .author-container p{
+display:block;
 text-align: left;
 margin: 30px auto;
 }
@@ -2551,6 +2552,6 @@ margin: 30px auto;
 
 @media screen and (max-width:320px){
   .author-container p{
-      visibility: hidden;
+      display:none;
     }
 }
