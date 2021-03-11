@@ -2536,6 +2536,7 @@ h2.title {
 
 .author-container img{
 border-radius: 30%;
+width:50%;
 margin: 15px;
 }
 
@@ -2546,4 +2547,10 @@ margin: 30px auto;
 
 .navbar-collapse{
   max-height: none;
+}
+
+@media screen and (max-width:320px){
+  .author-container p{
+      visibility: hidden;
+    }
 }
